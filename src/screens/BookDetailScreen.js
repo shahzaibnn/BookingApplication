@@ -63,7 +63,7 @@ export default function BookDetailScreen({navigation, route}) {
                   fontWeight: 'bold',
                   color: '#5f3734',
                   fontSize: 25,
-                  fontStyle: 'italic',
+                  // fontStyle: 'italic',
                   marginBottom: '2%',
                 }}>
                 {displayData.name}

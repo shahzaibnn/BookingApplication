@@ -28,17 +28,17 @@ export default function BooksListingScreen({navigation}) {
                 style={{
                   justifyContent: 'center',
                   alignItems: 'center',
-                  //   marginTop: '3%',
+                  marginTop: '3%',
                 }}>
                 <Text
                   style={{
-                    color: '#761518',
+                    color: '#000000',
                     fontWeight: 'bold',
                     fontSize: 30,
                     // borderRadius: 8,
                     // borderWidth: 1,
                   }}>
-                  Books Listing
+                  Discover
                 </Text>
               </View>
 
@@ -50,8 +50,8 @@ export default function BooksListingScreen({navigation}) {
                 <Text
                   style={{
                     fontWeight: 'bold',
-                    color: '#761518',
-                    fontSize: 16,
+                    color: '#777777',
+                    fontSize: 18,
                     fontStyle: 'italic',
                   }}>
                   Recommended
@@ -109,11 +109,10 @@ export default function BooksListingScreen({navigation}) {
                 <Text
                   style={{
                     fontWeight: 'bold',
-                    color: '#761518',
-                    fontSize: 16,
-                    fontStyle: 'italic',
+                    color: '#000000',
+                    fontSize: 20,
                   }}>
-                  All Categories
+                  Catalog
                 </Text>
               </View>
             </View>
